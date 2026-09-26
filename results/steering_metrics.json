@@ -1,7 +1,7 @@
 {
-  "feature_id": 23838,
+  "feature_id": 14302,
   "multiplier": 50.0,
   "baseline_behavior_rate": 0.1,
-  "steered_behavior_rate": 0.1,
-  "absolute_shift": 0.0
+  "steered_behavior_rate": 0.05,
+  "absolute_shift": -0.05
 }
