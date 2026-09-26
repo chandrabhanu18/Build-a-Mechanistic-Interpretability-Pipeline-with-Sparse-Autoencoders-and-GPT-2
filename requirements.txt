@@ -1,8 +1,16 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch>=2.0.0
-transformers>=4.38.0
-transformer_lens>=1.14.0
+transformers>=4.38.0,<4.50.0
+transformer_lens>=1.14.0,<3.0.0
 sae_lens>=1.0.0
+simple_parsing
+protobuf<5.0
+einops>=0.6.0
+fancy_einsum>=0.0.3
+jaxtyping>=0.3
+beartype>=0.14.1
+typeguard>=4.0.0
+better_abc>=0.0.3
 numpy>=1.24.0
 pandas>=2.0.0
 scipy>=1.10.0
