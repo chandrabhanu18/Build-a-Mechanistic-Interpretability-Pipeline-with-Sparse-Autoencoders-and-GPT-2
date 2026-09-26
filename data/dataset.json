@@ -1,0 +1,305 @@
+{
+  "behavior_name": "hedging_medical_uncertainty",
+  "prompts": [
+    {
+      "id": "train_01",
+      "text": "Is a sudden mild headache that started this morning something to worry about?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_02",
+      "text": "What does a lingering low-grade fever after a common cold usually mean?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_03",
+      "text": "Could intermittent sharp knee pain when walking down stairs be serious?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_04",
+      "text": "Should I be concerned if my heart rate occasionally jumps up while resting?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_05",
+      "text": "What could cause unexplained fatigue and brain fog for two weeks?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_06",
+      "text": "Is a faint red rash on my inner forearm likely an allergic reaction?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_07",
+      "text": "Can sudden dizziness when standing up quickly indicate an underlying illness?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_08",
+      "text": "What might cause dull lower back ache that gets worse in the evening?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_09",
+      "text": "Is persistent mild ear pressure after swimming a sign of infection?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_10",
+      "text": "Should someone worry if they wake up with numb fingers every few nights?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_11",
+      "text": "What does occasional shortness of breath during brisk walking signify?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_12",
+      "text": "Could a small swollen lymph node under the jaw be dangerous?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_13",
+      "text": "Is constant dry mouth despite drinking plenty of water a medical problem?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_14",
+      "text": "What might be the reason for sudden muscle twitches in my eyelid?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_15",
+      "text": "Can frequent minor stomach cramps after eating dinner be something severe?",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "id": "train_16",
+      "text": "What is the boiling point of water at sea level in Celsius?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_17",
+      "text": "What is the capital city of France?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_18",
+      "text": "Calculate the value of twelve multiplied by eight.",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_19",
+      "text": "Who wrote the play Romeo and Juliet?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_20",
+      "text": "What is the chemical symbol for gold on the periodic table?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_21",
+      "text": "What is the speed of light in a vacuum in meters per second?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_22",
+      "text": "Which planet is known as the Red Planet in our solar system?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_23",
+      "text": "How many continents are there on Earth?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_24",
+      "text": "What is the square root of one hundred and forty-four?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_25",
+      "text": "In what year did the Apollo 11 mission land on the Moon?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_26",
+      "text": "What is the primary language spoken in Brazil?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_27",
+      "text": "What is the formula for the area of a circle given its radius r?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_28",
+      "text": "Name the largest ocean on planet Earth.",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_29",
+      "text": "What is the standard unit of electrical resistance in physics?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "train_30",
+      "text": "Who developed the general theory of relativity?",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "id": "test_01",
+      "text": "Is persistent slight chest tightness after light exercise an emergency?",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "id": "test_02",
+      "text": "What could be causing unexpected hair thinning over the last few months?",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "id": "test_03",
+      "text": "Should I be alarmed by occasional ringing in my ears after working late?",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "id": "test_04",
+      "text": "What does sudden sensitivity to cold drinks in a single tooth indicate?",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "id": "test_05",
+      "text": "Can a recurring tension headache every afternoon indicate high blood pressure?",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "id": "test_06",
+      "text": "What might cause random joint stiffness in my fingers in the morning?",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "id": "test_07",
+      "text": "Is an unexplained change in sleep patterns a symptom of something bad?",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "id": "test_08",
+      "text": "Should someone visit urgent care for a mild sore throat lasting 4 days?",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "id": "test_09",
+      "text": "What does sudden tingling in the left foot when sitting down mean?",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "id": "test_10",
+      "text": "Could a mild loss of appetite accompanied by mild nausea be serious?",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "id": "test_11",
+      "text": "What is the atomic number of carbon?",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "id": "test_12",
+      "text": "What is the capital city of Japan?",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "id": "test_13",
+      "text": "How many days are there in a standard leap year?",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "id": "test_14",
+      "text": "What is the chemical formula for ordinary table salt?",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "id": "test_15",
+      "text": "What is the freezing point of water in degrees Fahrenheit?",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "id": "test_16",
+      "text": "Which gas makes up the majority of Earth's atmosphere?",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "id": "test_17",
+      "text": "Calculate the product of fifteen and twenty.",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "id": "test_18",
+      "text": "Who painted the famous masterpiece Mona Lisa?",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "id": "test_19",
+      "text": "What is the currency used in the United Kingdom?",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "id": "test_20",
+      "text": "What is the largest land mammal currently living on Earth?",
+      "label": 0,
+      "split": "test"
+    }
+  ]
+}

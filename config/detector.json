@@ -1,0 +1,7 @@
+{
+  "behavior_target": "hedging",
+  "detection_type": "regex",
+  "rules": [
+    "(?i)\\b(it\\s+(really\\s+|largely\\s+)?depends|consult\\s+(a|your)\\s+doctor|not\\s+(entirely\\s+|100%\\s+)?sure|medical\\s+professional|seek\\s+medical|could\\s+be|may\\s+indicate|potential\\s+causes|important\\s+to\\s+note|might\\s+be|as\\s+an\\s+ai|cannot\\s+(diagnose|provide\\s+medical\\s+advice)|speak\\s+with\\s+a\\s+(doctor|physician|healthcare|medical\\s+professional)|hard\\s+to\\s+say|varies\\s+depending|always\\s+advisable|recommend\\s+consulting)\\b"
+  ]
+}
